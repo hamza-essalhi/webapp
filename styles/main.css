@@ -1,0 +1,31 @@
+:root>body {
+    background: rgb(36,0,21);
+background: linear-gradient(90deg, rgba(36,0,21,1) 0%, rgba(153,0,240,1) 43%, rgba(231,0,255,1) 100%);
+}
+
+.card-box {
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(1px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+button.form-control {
+    color: white;
+    border: none;
+    background-color: #006778;
+    padding: 10px;
+    border-radius: 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.logo {
+    width: 20%;
+}
+
+form {
+    color: white;
+}
